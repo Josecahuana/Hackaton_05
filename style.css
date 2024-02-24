@@ -66,13 +66,6 @@ body{
     height: 100vh;    
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
 /*GLOBAL*/
 h1{
     font-family: 'Montserrat';
@@ -92,7 +85,6 @@ a{
     font-weight: 500;
     font-size: 15px;
 }
-
 
 /*HEADER*/
 .header-head{
@@ -175,7 +167,6 @@ main{
     width: 40px;
 }
 
-
    /*CENTER*/
 
 .main-section-center{
@@ -189,11 +180,8 @@ main{
     width: 70%;
 }
 
-
-
     /*RIGHT*/
 .main-section-right{
-    display: flex;
     position: relative;
     flex:1;
 }
